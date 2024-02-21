@@ -1,0 +1,365 @@
+.App{
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: fff;
+  /* background-image: url('travel2.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+.header{
+  max-height: 70px;
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  height: 68px;
+  z-index: 9;
+  /* display: block; */
+  width: 100%;
+  color: #666;
+  font-family: Rubik;
+  font-size: 14px;
+  line-height: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.logo-home {
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #0a56b4; 
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.buttons{
+  width: 75px;
+  height: 40px;
+  margin-top: 30px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.loginIcon{
+  display: block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.signIn{
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  align-items: center;
+  display: inline-flex;
+  font-size: 17px;
+  line-height: 0.8;
+  cursor: pointer;
+}
+
+.container{
+  max-width: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  padding: 0 16px;
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.col1{
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding-right: 8px;
+  padding-left: 8px;
+  flex-basis: 16.66667%;
+  max-width: 16.66667%;
+  display: block;
+  font: caption;
+  font-size: 12px;
+  /* font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,Arial,sans-serif; */
+}
+
+.Flights{
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 20px;
+  padding-left: 8px;
+  align-items: center;
+  display: flex;
+  color:  #1a1a1a;
+  background-color: initial;
+  box-sizing: border-box;
+  font: caption;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+.Flights:hover {
+  background-color: rgb(200, 227, 255);
+}
+
+/* .Flights:hover .flightlogo,
+.Flights:hover .flightname {
+  color: #053775;
+} */
+
+.flightlogo{
+  width: 20px;
+  height: 20px;
+  fill: rgb(51, 102, 204);
+  cursor: pointer;
+}
+
+.flightname{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-left: 16px;
+  margin-right: 2px;
+  cursor: pointer;
+  display: flex;
+  color: #1a1a1a;
+}
+
+.Bus{
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 20px;
+  padding-left: 8px;
+  align-items: center;
+  display: flex;
+  color:  #1a1a1a;
+  background-color: initial;
+  box-sizing: border-box;
+  font: caption;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+.Bus:hover {
+  background-color: rgb(200, 227, 255);
+}
+
+/* .Flights:hover .flightlogo,
+.Flights:hover .flightname {
+  color: #053775;
+} */
+
+.buslogo{
+  width: 20px;
+  height: 20px;
+  fill: rgb(51, 102, 204);
+  cursor: pointer;
+}
+
+.busname{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-left: 16px;
+  margin-right: 2px;
+  cursor: pointer;
+  display: flex;
+  color: #1a1a1a;
+}
+
+.Train{
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 20px;
+  padding-left: 8px;
+  align-items: center;
+  display: flex;
+  color:  #1a1a1a;
+  background-color: initial;
+  box-sizing: border-box;
+  font: caption;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+.Train:hover {
+  background-color: rgb(200, 227, 255);
+}
+
+/* .Flights:hover .flightlogo,
+.Flights:hover .flightname {
+  color: #053775;
+} */
+
+.trainlogo{
+  width: 20px;
+  height: 20px;
+  fill: rgb(51, 102, 204);
+  cursor: pointer;
+}
+
+.trainname{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-left: 16px;
+  margin-right: 2px;
+  cursor: pointer;
+  display: flex;
+  color: #1a1a1a;
+}
+
+.col2{
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding-right: 8px;
+  padding-left: 8px;
+  flex-basis: 56.076364%;
+  max-width: 56.076364%;
+  display: block;
+  font: caption;
+  font-size: 12px;
+}
+
+.head1{
+  font-weight: 500;
+  font-family: Georgia, serif; 
+
+}
+
+.search-container {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.search-button {
+  position: absolute;
+  top: 50%;
+  margin-left: 15px;
+  transform: translateY(-40%);
+  /* right: 10px; */
+  /* margin-left: 16px; */
+  /* margin-right: 16px; */
+  /* display: block; */
+  /* box-sizing: border-box; */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button img {
+  width: 20px; /* Adjust width and height of the search icon */
+  height: 20px;
+  fill: rgb(128, 128, 128);
+  overflow: hidden;
+}
+
+.search-input {
+  padding: 10px 40px; /* Adjust padding as needed */
+  border-radius: 25px; /* Adjust border-radius to make it round */
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  width: 100%;
+  color: grey;
+  overflow: visible;
+  outline: none;
+}
+
+.Destinations {
+  position: relative;
+  width: 100%;
+  /* max-width: 600px;  */
+  margin: auto;
+}
+
+.three{
+  display: flex;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.prev {
+  left: 0;
+}
+
+.next{
+  right: 0;
+}
+
+.footer {
+  max-width: 100%;
+  margin: auto;
+  padding: 0 16px;
+  margin-top: 40px;
+  align-items: flex-start;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.end{
+  flex: 1;
+padding: 0 20px;
+}
+
+.end ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.end ul li {
+  margin-bottom: 5px;
+  padding: 1%;
+}  
