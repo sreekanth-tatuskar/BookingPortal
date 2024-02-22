@@ -26,7 +26,7 @@ const LoginPage = () => {
     </div>
     <div className="Footer">
       
-      <div className='end'>
+      <div className='end1'>
       <ul>
             <li><a href="/">Home</a></li>
             <li><a href="#About"   >About</a></li>
