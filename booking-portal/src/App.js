@@ -12,6 +12,7 @@ import image2 from './image2.jpg'
 import image3 from './image3.jpg'
 import image4 from './image4.jpg'
 import image5 from './travel2.jpg'
+import './loginpage';
 
 
 
@@ -48,7 +49,7 @@ function App() {
       
       <div className="buttons">
         <div className="loginIcon "><img src={loginImage} alt ="image" ></img></div>
-        <div className="signIn" onClick={()=>{window.location.href =''}}>SignIn</div>
+        <div className="signIn" onClick={()=>{window.location.href ='/login'}}>SignIn</div>
       </div>
     </div>
     <div className = 'Container'>
@@ -76,7 +77,7 @@ function App() {
             </div>
           </div>
           <div className='Destinations'>
-            <h2 className='head1'>Popular Destinations to viist</h2>
+            <h2 className='head1'>Popular Destinations to visit</h2>
             <div className='three'>
             <button className="prev" onClick={goToPrevSlide}>&#10094;</button>
             <div className="slide">
@@ -86,10 +87,23 @@ function App() {
             </div>
           </div>
         </div>
+        <div className ="col3">
+          
+          <div className='offers'>
+            <div className="offer-head">
+            <h2 className='head1'>More Offers</h2>
+            <a className ='viewall' href='/offers'>View all</a>
+            </div>
+            <div className='offer-body'>
+              <div className='offer-msg'>
+                <p className='p1'>International Flight Offer!</p>
+                <p className='p2'>Get up to $300 off on International Flights</p>
+                <p className='p3'>Use Coupon code INTFLY</p>
+              </div>
+            </div>
+          </div>
 
-
-
-
+        </div>
 
     </div>
     </div>
